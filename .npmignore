@@ -1,0 +1,6 @@
+.eslintignore
+.eslintrc.json
+.vscode
+.idea
+.gitignore
+node_modules

@@ -1,0 +1,23 @@
+{
+  "name": "@bark/dotenv",
+  "version": "0.1.0",
+  "description": "Read and populate environment variables from a .env file",
+  "main": "dotenv.js",
+  "scripts": {
+	"test": "jest",
+	"lint": "eslint ./**/*.js --quiet"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "bark",
+    "configuration"
+  ],
+  "author": "Louis Capitanchik <contact@louiscap.co>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@bark/eslint-config": "^0.1.2",
+    "eslint": "^4.17.0",
+    "jest": "^22.1.4"
+  }
+}
