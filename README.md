@@ -1,4 +1,4 @@
-# node-dotenv
+# @bark/dotenv
 
 [![Build Status](https://travis-ci.org/GetBark/node-dotenv.svg?branch=master)](https://travis-ci.org/GetBark/node-dotenv)
 
