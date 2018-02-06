@@ -15,6 +15,15 @@ Values with spaces in them need to be quoted, otherwise this is a syntax error. 
 inside of quoted sections should be printed literally in the interpreted value. Shell scripts also allow quoted
 sections within strings (e.g. `my" value"` is valid, equal to the string `"my value"`)
 
+## Philosophy
+
+Libraries like `@bark/dotenv` are all about making life easier for developing and deploying - if something goes wrong,
+you don't want to spend an age tracing through config files trying to figure out where the error is. If something
+goes wrong loading your configs, `@bark/dotenv` tells you excactly why it failed, and where the error happened so
+that you can keep the development loop tight and not waste time
+
+![selection_411](https://user-images.githubusercontent.com/2522620/35835359-2ba37a0e-0ad2-11e8-93b6-52148a34c576.png)
+
 ## Usage
 
 To read a `.env` formatted string
