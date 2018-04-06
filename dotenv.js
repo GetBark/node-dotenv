@@ -20,4 +20,16 @@ module.exports = {
 
 	parse: reader,
 	putenv: proc,
+
+	globals: function mountEnvGlobals() {
+		if (!global.hasOwnProperty('env')) {
+			global.env = function getEnv(key, fallback = null) {
+				return process.env[key] || fallback
+			}
+		}
+	},
+
+	env: function getEnv(key, fallback = null) {
+		return process.env[key] || fallback
+	},
 }
